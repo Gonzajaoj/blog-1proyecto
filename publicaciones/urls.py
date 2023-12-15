@@ -4,6 +4,6 @@ from .import views
 
 urlpatterns = [
    
-        path('ver-publicaciones/' ,views.publicaciones_views, name='publicaciones')
+        path('ver-publicaciones/' ,views.Publicacionesview.as_view(), name='publicaciones')
     
     ]
